@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bearcubdev.autoadvisorassistant" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/steering_wheel"
+        android:label="Auto Advisor Assistant"
+        android:theme="@style/theme_no_action_bar" >
+        <activity
+            android:name="com.bearcubdev.autoadvisorassistant.ContactManager"
+            android:label="Auto Advisor Assistant" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.bearcubdev.autoadvisorassistant.DataProvider"
+            android:authorities="com.bearcubdev.autoadvisorassistant.DataProvider" >
+        </provider>
+
+    </application>
+
+
+
+</manifest>

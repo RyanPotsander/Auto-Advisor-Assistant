@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Service Advisor Assistant</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sample">
+        <item>Tap here to add a ticket</item>
+        <item>this app will be so freekin cool</item>
+        <item>it is going to make me so rich</item>
+        <item>and girls will think I am so sexy</item>
+        <item>I wanna make bank</item>
+    </string-array>
+
+    <string name="text_view_1">Status Calls</string>
+    <string name="text_view_2">Estimates</string>
+    <string name="text_view_3">Pickups</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="ticket_number">Ticket #</string>
+    <string name="notes">Notes</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

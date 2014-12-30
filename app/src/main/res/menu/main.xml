@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bearcubdev.autoadvisorassistant.Main">
+
+
+    <item
+        android:id="@+id/add_Button"
+        android:title="Add"
+        android:icon="@drawable/ic_action_new_dark"
+        android:showAsAction="always"
+        app:showAsAction="always"/>
+
+</menu>
